@@ -1,0 +1,125 @@
+*{ 
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: rgba(139, 159, 132, 0.581);
+    margin-top: 80px;
+    text-align: center;
+}
+
+.registetion{ 
+    background-color: rgb(174, 180, 180);
+    border: 5px solid rgba(170, 163, 163, 0.37);
+    text-align:center;
+    display:inline-block;
+
+}
+.h{
+    height: 2px;
+    background-color: rgba(55, 130, 109, 0.159);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+.pading{
+    width: 400px;
+    height: 600px;
+}
+.reg{
+    color: rgba(76, 156, 130, 0.833);
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+}
+.fast{
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgba(30, 100, 78, 0.992);
+}
+.name{
+    height: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: italic;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid rgba(76, 156, 130, 0.833);
+    text-transform:inherit;
+    background-color: rgba(68, 102, 102, 0.433);
+}
+.name:hover{
+    color:white ;
+    background-color: rgba(7, 16, 13, 0.304);
+    font-style: normal;
+    text-transform:lowercase;
+}
+
+.gen{
+    font-size: 20px;
+    text-transform:capitalize;
+    color: rgba(30, 100, 78, 0.992);
+    margin-top: 5px;
+}
+.hr{
+    width: 20%;
+    margin: auto;
+}
+.submit{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border:none
+    color:rgb(5, 4, 4) ;
+    background-color: rgba(68, 102, 102, 0.433);
+    cursor:pointer
+
+    
+}
+
+.submit:hover{
+    background-color: rgba(7, 16, 13, 0.304);
+    font-style: italic;
+    border-color: rgba(137, 43, 226, 0.202);
+    border-radius: 5px;
+}
+
+/*mobile view*/
+@media(max-width: 490px){
+    .registetion{
+        width: 350px;
+        background-color: rgba(146, 224, 224, 0.619);
+    }
+}
+
+/*mobile view*/
+@media(max-width: 490px){
+    .pading{
+        width: 350px;
+    }
+}
+
+/*mobile view*/
+@media(max-width: 280px){
+    .registetion{
+        width: 250px;
+        background-color: rgba(131, 131, 220, 0.438);
+    }
+
+    
+}
+
+/*mobile view*/
+@media(max-width:280px){
+    .pading{
+        width: 250px;
+    }
+}
+
+
+
